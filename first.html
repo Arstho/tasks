@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem</title>
+</head>
+
+<body class="body">
+    <div class="text">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis elementum dui. Fusce quam ligula,
+            aliquam feugiat aliquet.
+        </p>
+    </div>
+    <div class="links">
+        <a target="_blank" href="https://intocode.ru" rel="noopener noreferrer">intocode</a>
+        <a target="_blank" href="https://www.google.ru" rel="noopener noreferrer">google</a>
+        <a target="_blank" href="https://www.instagram.com" rel="noopener noreferrer">instagram</a>
+    </div>
+    <script>
+        const body = document.querySelector('.body');
+        const text = document.querySelector('.text');
+        const links = document.querySelector('.links');
+
+        body.style.width = '500px';
+        body.style.margin = '8em auto';
+        body.style.fontSize = '25px';
+        text.style.border = '2px solid black';
+        text.style.borderRadius = '30px';
+        text.style.padding = '10px 20px';
+        links.style.display = 'flex';
+        links.style.justifyContent = 'space-between';
+        links.style.marginTop = '30px';
+    </script>
+</body>
+
+</html>
